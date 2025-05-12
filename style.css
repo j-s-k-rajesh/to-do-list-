@@ -1,0 +1,32 @@
+.game {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+}
+h1 {
+   display: flex;
+   justify-content: center;
+   color: chocolate; 
+}
+body{
+    background-color: antiquewhite;
+}
+.box{
+    background-color: chocolate;
+    color: antiquewhite;
+    font-size: 70px;
+    border: antiquewhite;
+    margin: 2px;
+    border-radius: 15px;
+}
+.reset{
+    display: flex;
+    margin-left: 47.6%;
+    margin-top: 20px;
+    background-color: darkslategray;
+    color: antiquewhite;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
